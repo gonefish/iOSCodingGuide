@@ -1,19 +1,64 @@
 //
-//  AppDelegate.m
+//  CGAppDelegate.m
 //  CodingGuide
 //
 //  Created by 钱国强 on 15/7/1.
 //  Copyright (c) 2015年 Qian GuoQiang. All rights reserved.
 //
 
-#import "AppDelegate.h"
+// ------------
+// 头文件import区
+// ------------
 
-@interface AppDelegate ()
+#import "CGAppDelegate.h"
+
+// ----------
+// C/C++函数区
+// ----------
+
+
+// ------------------
+// 类私有方法和属性实现区
+// ------------------
+
+@interface CGAppDelegate ()
+
+// ----------------
+// 内部property申明区
+// ----------------
+
+@property (nonatomic, strong) NSString *privateProperty;
 
 @end
 
-@implementation AppDelegate
 
+// --------
+// 对象实现区
+// --------
+
+@implementation CGAppDelegate
+
+// -------------------
+// Public及重载父类方法区
+// -------------------
+
+#pragma mark - Public
+
++ (void)classMethodFoo
+{
+    
+}
+
+- (void)instanceMethodBar
+{
+    
+}
+
+// ---------
+// 方法归类区A
+// ---------
+
+#pragma mark - UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -41,5 +86,18 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+// ---------
+// 方法归类区B
+// ---------
+
+#pragma mark - UINavigationControllerDelegate
+
+// -----------
+// 私有方法归类区
+// -----------
+
+#pragma mark - Private
+
 
 @end

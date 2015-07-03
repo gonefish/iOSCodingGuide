@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CGSampleViewController.h
 //  CodingGuide
 //
 //  Created by 钱国强 on 15/7/1.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CGSampleViewController : UIViewController
 
 
 @end

@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E302BA611B44133300BB7D9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E302BA601B44133300BB7D9E /* main.m */; };
-		E302BA641B44133300BB7D9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E302BA631B44133300BB7D9E /* AppDelegate.m */; };
-		E302BA671B44133300BB7D9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E302BA661B44133300BB7D9E /* ViewController.m */; };
+		E302BA641B44133300BB7D9E /* CGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E302BA631B44133300BB7D9E /* CGAppDelegate.m */; };
+		E302BA671B44133300BB7D9E /* CGSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E302BA661B44133300BB7D9E /* CGSampleViewController.m */; };
 		E302BA6A1B44133300BB7D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E302BA681B44133300BB7D9E /* Main.storyboard */; };
 		E302BA6C1B44133300BB7D9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E302BA6B1B44133300BB7D9E /* Images.xcassets */; };
 		E302BA6F1B44133300BB7D9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E302BA6D1B44133300BB7D9E /* LaunchScreen.xib */; };
 		E302BA7B1B44133300BB7D9E /* CodingGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E302BA7A1B44133300BB7D9E /* CodingGuideTests.m */; };
+		E302BA851B4413E600BB7D9E /* 编码规范.md in Sources */ = {isa = PBXBuildFile; fileRef = E302BA841B4413E600BB7D9E /* 编码规范.md */; };
+		E3C5E76F1B463D0D005B0629 /* NSObject+CodingGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5E76E1B463D0D005B0629 /* NSObject+CodingGuide.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +32,19 @@
 		E302BA5B1B44133300BB7D9E /* CodingGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E302BA5F1B44133300BB7D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E302BA601B44133300BB7D9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E302BA621B44133300BB7D9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E302BA631B44133300BB7D9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E302BA651B44133300BB7D9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E302BA661B44133300BB7D9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E302BA621B44133300BB7D9E /* CGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGAppDelegate.h; sourceTree = "<group>"; };
+		E302BA631B44133300BB7D9E /* CGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGAppDelegate.m; sourceTree = "<group>"; };
+		E302BA651B44133300BB7D9E /* CGSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGSampleViewController.h; sourceTree = "<group>"; };
+		E302BA661B44133300BB7D9E /* CGSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGSampleViewController.m; sourceTree = "<group>"; };
 		E302BA691B44133300BB7D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E302BA6B1B44133300BB7D9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E302BA6E1B44133300BB7D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E302BA741B44133300BB7D9E /* CodingGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E302BA791B44133300BB7D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E302BA7A1B44133300BB7D9E /* CodingGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingGuideTests.m; sourceTree = "<group>"; };
+		E302BA841B4413E600BB7D9E /* 编码规范.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "编码规范.md"; sourceTree = "<group>"; };
+		E3C5E76D1B463D0D005B0629 /* NSObject+CodingGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CodingGuide.h"; sourceTree = "<group>"; };
+		E3C5E76E1B463D0D005B0629 /* NSObject+CodingGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CodingGuide.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +86,13 @@
 		E302BA5D1B44133300BB7D9E /* CodingGuide */ = {
 			isa = PBXGroup;
 			children = (
-				E302BA621B44133300BB7D9E /* AppDelegate.h */,
-				E302BA631B44133300BB7D9E /* AppDelegate.m */,
-				E302BA651B44133300BB7D9E /* ViewController.h */,
-				E302BA661B44133300BB7D9E /* ViewController.m */,
+				E302BA841B4413E600BB7D9E /* 编码规范.md */,
+				E302BA621B44133300BB7D9E /* CGAppDelegate.h */,
+				E302BA631B44133300BB7D9E /* CGAppDelegate.m */,
+				E302BA651B44133300BB7D9E /* CGSampleViewController.h */,
+				E302BA661B44133300BB7D9E /* CGSampleViewController.m */,
+				E3C5E76D1B463D0D005B0629 /* NSObject+CodingGuide.h */,
+				E3C5E76E1B463D0D005B0629 /* NSObject+CodingGuide.m */,
 				E302BA681B44133300BB7D9E /* Main.storyboard */,
 				E302BA6B1B44133300BB7D9E /* Images.xcassets */,
 				E302BA6D1B44133300BB7D9E /* LaunchScreen.xib */,
@@ -163,6 +171,7 @@
 		E302BA531B44133300BB7D9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CG;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Qian GuoQiang";
 				TargetAttributes = {
@@ -219,8 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E302BA671B44133300BB7D9E /* ViewController.m in Sources */,
-				E302BA641B44133300BB7D9E /* AppDelegate.m in Sources */,
+				E302BA851B4413E600BB7D9E /* 编码规范.md in Sources */,
+				E3C5E76F1B463D0D005B0629 /* NSObject+CodingGuide.m in Sources */,
+				E302BA671B44133300BB7D9E /* CGSampleViewController.m in Sources */,
+				E302BA641B44133300BB7D9E /* CGAppDelegate.m in Sources */,
 				E302BA611B44133300BB7D9E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +427,7 @@
 				E302BA801B44133300BB7D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E302BA811B44133300BB7D9E /* Build configuration list for PBXNativeTarget "CodingGuideTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +436,7 @@
 				E302BA831B44133300BB7D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
